@@ -13,5 +13,10 @@ José Yuri Lima Lira
 4.  Após a execução do servidor de nomes é necessário executar o servidor do chat basta rodar o arquivo server.py
 5.  após a execução desses dois arquivos execute o arquivo chat.py e o chat será aberto
 
-
+### Features
+* Envio de mensagens quando o usuário estiver online utiliza comnunicação RPC
+* Envio de mensagens quando usuário estiver offline utiliza o RabbitMQ para armazenamento e em seguida distribuição
+das mensagens.
+* Usuário pode setar seu estado no chat (Online e Offline)
+* Todos os usuários são contatos uns dos outros
 
